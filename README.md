@@ -1,6 +1,10 @@
 # android-webview-foldable-skia-fix
 Fix and minimal reproduction for Chromium Skia GPU tile splitting &amp; ghost duplicate element glitches on Android foldables (Pixel Fold, Galaxy Fold) in WebView / Capacitor apps.
 
+Upstream Tracking
+Tracked in Chromium Issue Tracker: https://issues.chromium.org/issues/573671128
+Related Skia tile corruption report: Issue #571135411
+
 # Android WebView Foldable Skia Compositor Fix
 
 > A solution and minimal reproduction for the duplicate/ghost element glitch caused by Chromium's Skia tile atlas compositor on Android foldables and multi-display devices when combining `backdrop-filter` with 3D hardware transforms.
