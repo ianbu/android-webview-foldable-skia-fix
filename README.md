@@ -1,4 +1,7 @@
 # android-webview-foldable-skia-fix
+
+Note: While initially suspected to be a Skia rasterizer defect, Chromium engineers have identified this as a compositor render-pass transform miscalculation spanning multi-display/foldable viewports :-)
+
 Fix and minimal reproduction for Chromium Skia GPU tile splitting &amp; ghost duplicate element glitches on Android foldables (Pixel Fold, Galaxy Fold) in WebView / Capacitor apps.
 
 Upstream Tracking
